@@ -1,0 +1,25 @@
+{
+  "name": "Receipt Schema",
+  "fields": [
+    {
+      "name": "merchant_name",
+      "description": "The name of the merchant or store that issued the receipt"
+    },
+    {
+      "name": "transaction_date",
+      "description": "The date when the transaction occurred"
+    },
+    {
+      "name": "total_amount",
+      "description": "The total amount paid for the transaction"
+    },
+    {
+      "name": "tax_amount",
+      "description": "The amount of tax charged for the transaction"
+    },
+    {
+      "name": "items",
+      "description": "The individual items purchased as part of the transaction"
+    }
+  ]
+} 

@@ -1,0 +1,29 @@
+{
+  "name": "Invoice Schema",
+  "fields": [
+    {
+      "name": "vendor_name",
+      "description": "The name of the vendor who issued the invoice"
+    },
+    {
+      "name": "invoice_date",
+      "description": "The date when the invoice was issued"
+    },
+    {
+      "name": "due_date",
+      "description": "The date by which payment is expected"
+    },
+    {
+      "name": "total_amount",
+      "description": "The total amount to be paid including taxes"
+    },
+    {
+      "name": "tax_amount",
+      "description": "The amount of tax charged"
+    },
+    {
+      "name": "line_items",
+      "description": "The individual items, services, or products listed on the invoice"
+    }
+  ]
+} 

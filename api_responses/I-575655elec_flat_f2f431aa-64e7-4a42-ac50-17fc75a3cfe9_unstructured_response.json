@@ -1,0 +1,2752 @@
+[
+  {
+    "type": "Image",
+    "element_id": "9d0d567dc38d19314ca2bf2158ad2896",
+    "text": "Powered by   for business  for business ",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            600.7066040039062,
+            142.3296356201172
+          ],
+          [
+            600.7066040039062,
+            379.2493896484375
+          ],
+          [
+            1050.982421875,
+            379.2493896484375
+          ],
+          [
+            1050.982421875,
+            142.3296356201172
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "69332875761177154e3c33f863a0cc3e",
+    "text": "Konex General TopCo",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            189.37681579589844,
+            475.9960632324219
+          ],
+          [
+            189.37681579589844,
+            504.35152120449135
+          ],
+          [
+            457.1381530761719,
+            504.35152120449135
+          ],
+          [
+            457.1381530761719,
+            475.9960632324219
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0fe2fadfb54cc5c7743ae120e2e09eb4",
+    "text": "1 Hornsey Road",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            190.8472238232222,
+            506.1219177246094
+          ],
+          [
+            190.8472238232222,
+            532.864013671875
+          ],
+          [
+            386.2695007324219,
+            532.864013671875
+          ],
+          [
+            386.2695007324219,
+            506.1219177246094
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f7cd45cd2cc3976d9425b336239cb465",
+    "text": "Islington",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            189.71478271484375,
+            534.6022338867188
+          ],
+          [
+            189.71478271484375,
+            561.5486450195312
+          ],
+          [
+            297.8376159667969,
+            561.5486450195312
+          ],
+          [
+            297.8376159667969,
+            534.6022338867188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1cb1cf5b22f05682cd8524779c78da74",
+    "text": "London",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            190.3929901123047,
+            563.4246215820312
+          ],
+          [
+            190.3929901123047,
+            589.5823670522692
+          ],
+          [
+            284.8125305175781,
+            589.5823670522692
+          ],
+          [
+            284.8125305175781,
+            563.4246215820312
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f88601be0bae4ebbfd45ace8705afe5",
+    "text": "N7 7AJ",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            189.33087158203125,
+            590.238525390625
+          ],
+          [
+            189.33087158203125,
+            617.9925654153246
+          ],
+          [
+            278.4326171875,
+            617.9925654153246
+          ],
+          [
+            278.4326171875,
+            590.238525390625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+    "text": "Invoice",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            684.2386474609375,
+            674.5172729492188
+          ],
+          [
+            684.2386474609375,
+            756.9762437500003
+          ],
+          [
+            973.9053955078125,
+            756.9762437500003
+          ],
+          [
+            973.9053955078125,
+            674.5172729492188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f10a85b384907382491e345ab65b2352",
+    "text": "Invoice number:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.5439910888672,
+            812.816162109375
+          ],
+          [
+            185.5439910888672,
+            842.7178868055556
+          ],
+          [
+            402.078125,
+            842.7178868055556
+          ],
+          [
+            402.078125,
+            812.816162109375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f7d430c3d7859c69039ff6c59f7162ef",
+    "text": "Account number:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            184.73680114746094,
+            857.9877319335938
+          ],
+          [
+            184.73680114746094,
+            887.8544368055556
+          ],
+          [
+            417.3435363769531,
+            887.8544368055556
+          ],
+          [
+            417.3435363769531,
+            857.9877319335938
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ca6916f00db9ef15b0df7758eed94ff",
+    "text": "Date issued:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.4318389892578,
+            903.8659057617188
+          ],
+          [
+            186.4318389892578,
+            932.9909868055557
+          ],
+          [
+            352.62530517578125,
+            932.9909868055557
+          ],
+          [
+            352.62530517578125,
+            903.8659057617188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a48d4a235610f7b81141e2d13b1a0ed6",
+    "text": "I-575655",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            635.138916015625,
+            811.1597290039062
+          ],
+          [
+            635.138916015625,
+            838.1543502016635
+          ],
+          [
+            735.1035766601562,
+            838.1543502016635
+          ],
+          [
+            735.1035766601562,
+            811.1597290039062
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "13fa855aad130003188f8d51d465c573",
+    "text": "A-2981",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            634.7057495117188,
+            851.3736572265625
+          ],
+          [
+            634.7057495117188,
+            879.3254650616635
+          ],
+          [
+            716.8924560546875,
+            879.3254650616635
+          ],
+          [
+            716.8924560546875,
+            851.3736572265625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3366fe7d0cb16a2e230c0a4b6c3b15c5",
+    "text": "13th Aug 2024",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            633.3865911419443,
+            903.0729370117188
+          ],
+          [
+            633.3865911419443,
+            933.446044921875
+          ],
+          [
+            814.8165893554688,
+            933.446044921875
+          ],
+          [
+            814.8165893554688,
+            903.0729370117188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "020ba049a6edaeba3cb1d6d9b8d41eb7",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c5bd5cb2e9ae799fdbeb6500b90021cf",
+    "text": "Your charges",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            182.66943359375,
+            1058.3665771484375
+          ],
+          [
+            182.66943359375,
+            1110.7025146484375
+          ],
+          [
+            506.9674377441406,
+            1110.7025146484375
+          ],
+          [
+            506.9674377441406,
+            1058.3665771484375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "7369adcf826649dbdb8e8c89a9d63c7f",
+    "text": "Net charges CCL Electricity (01 Jul 2024 - 07 Jul 2024) \u00a31,127.44 \u00a30.00 Total charges for bill Current balance VAT \u00a356.37 Total \u00a31,183.81 \u00a31,183.81 -\u00a33,599.67",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            183.13705444335938,
+            1203.171142578125
+          ],
+          [
+            183.13705444335938,
+            1393.0660400390625
+          ],
+          [
+            1472.9903564453125,
+            1393.0660400390625
+          ],
+          [
+            1472.9903564453125,
+            1203.171142578125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "text_as_html": "<table><thead><tr><th></th><th>Net charges</th><th>ccL</th><th>VAT</th><th>Total</th></tr></thead><tbody><tr><td>Electricity (01 Jul 2024 - 07 Jul 2024)</td><td>\u00a31,127.44</td><td>\u00a30.00</td><td>\u00a356.37</td><td>\u00a31,183.81</td></tr><tr><td>Total charges for bill</td><td></td><td></td><td></td><td>\u00a31,183.81</td></tr><tr><td>Current balance</td><td></td><td></td><td></td><td>-\u00a33,599.67</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "c5bd5cb2e9ae799fdbeb6500b90021cf",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dec01b6c146ee29d2ed3b908bb296f50",
+    "text": "Your direct debit payment of \u00a31,183.81 will be taken in 7 days.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            183.40724182128906,
+            1435.1868896484375
+          ],
+          [
+            183.40724182128906,
+            1464.6561279296875
+          ],
+          [
+            872.9413452148438,
+            1464.6561279296875
+          ],
+          [
+            872.9413452148438,
+            1435.1868896484375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "parent_id": "c5bd5cb2e9ae799fdbeb6500b90021cf",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f98814ed9b248d8875f0006ab1aa355c",
+    "text": "Octopus Energy Limited",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            689.0,
+            2062.0
+          ],
+          [
+            689.0,
+            2083.0
+          ],
+          [
+            963.0,
+            2083.0
+          ],
+          [
+            963.0,
+            2062.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "bd559c7e810f944c7537c1f67e694057",
+    "text": "Company Number 09263424",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            661.2216796875,
+            2086.5244140625
+          ],
+          [
+            661.2216796875,
+            2112.5000932033336
+          ],
+          [
+            991.2971801757812,
+            2112.5000932033336
+          ],
+          [
+            991.2971801757812,
+            2086.5244140625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "49bb89c90dfe67d328ba95c04b2f1544",
+    "text": "VAT Number 358672751",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            685.2860717773438,
+            2114.04833984375
+          ],
+          [
+            685.2860717773438,
+            2139.97265625
+          ],
+          [
+            972.185546875,
+            2139.97265625
+          ],
+          [
+            972.185546875,
+            2114.04833984375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "856d64541f3b811f0f89983978fe8637",
+    "text": "Powered by   for business  for business ",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            610.8222045898438,
+            134.91709899902344
+          ],
+          [
+            610.8222045898438,
+            370.1163635253906
+          ],
+          [
+            1057.9674072265625,
+            370.1163635253906
+          ],
+          [
+            1057.9674072265625,
+            134.91709899902344
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a1158bb300915858d1e9bf99d5d3d0fb",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.8607635498047,
+            532.8032836914062
+          ],
+          [
+            163.8607635498047,
+            580.5344848632812
+          ],
+          [
+            212.82647705078125,
+            580.5344848632812
+          ],
+          [
+            212.82647705078125,
+            532.8032836914062
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c2eae1578f19613c10c3dcc11eedc163",
+    "text": "Your Energy Charges In Detail",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            225.31874084472656,
+            460.32696533203125
+          ],
+          [
+            225.31874084472656,
+            500.9410705566406
+          ],
+          [
+            788.1702270507812,
+            500.9410705566406
+          ],
+          [
+            788.1702270507812,
+            460.32696533203125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "1b7791e9dd4b9c4701dc8f2df01acb62",
+    "text": "Electricity Supply number S 0 845 1170001317520 L02",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.18518606694442,
+            524.8963012695312
+          ],
+          [
+            228.18518606694442,
+            594.2345581054688
+          ],
+          [
+            919.8103637695312,
+            594.2345581054688
+          ],
+          [
+            919.8103637695312,
+            524.8963012695312
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "text_as_html": "<table><thead><tr><th>Electricity</th><th>Supply number</th><th>S</th><th>[]</th><th>845</th><th>LO2</th></tr></thead><tbody><tr><td></td><td></td><td colspan=\"4\">1170001317520</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ad410109c43708f3cba1818a6b56b986",
+    "text": "Supply Address: Rosewood Manor, 58 Coventry Road, Market Konex Development, Judds Ln, Coventry CV6 6GE",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.18516666666665,
+            603.03759765625
+          ],
+          [
+            228.18516666666665,
+            627.77734375
+          ],
+          [
+            847.1179809570312,
+            627.77734375
+          ],
+          [
+            847.1179809570312,
+            603.03759765625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "552f139434c9685b5effecbb2f34ec2e",
+    "text": "Postcode area alpha identifier: R T",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            227.37332153320312,
+            662.1094970703125
+          ],
+          [
+            227.37332153320312,
+            686.5396783333337
+          ],
+          [
+            557.5291137695312,
+            686.5396783333337
+          ],
+          [
+            557.5291137695312,
+            662.1094970703125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "36aede78427c2d791308c929b9861512",
+    "text": "Green Octopus 12M Fixed (1st Jul 2024 - 7th Jul 2024)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            227.1901397705078,
+            707.0526123046875
+          ],
+          [
+            227.1901397705078,
+            732.7360229492188
+          ],
+          [
+            771.31396484375,
+            732.7360229492188
+          ],
+          [
+            771.31396484375,
+            707.0526123046875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8db8bc126674d28c0462426d0eed6eb8",
+    "text": "W210M455189 Energy Charges for Meter K20W003187",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.18518606694442,
+            751.8474731445312
+          ],
+          [
+            228.18518606694442,
+            776.9769897460938
+          ],
+          [
+            643.43310546875,
+            776.9769897460938
+          ],
+          [
+            643.43310546875,
+            751.8474731445312
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "fa6e3db41fa5c524c059f9f257f749a3",
+    "text": "Breakdown by rate Rate Consumption Cost 21.55p/kWh 571.5 kWh \u00a3123.158 29.14p/kWh 3011.8 kWh \u00a3877.639 Total consumption 3583.3kWh @ 27.93p/kWh \u2020 \u00a31,000.80 Standing Charge 7 days @ 1404.72p/day \u00a398.33 7 days x 120kVA Capacity charge @ 3.37p/kVA/day \u00a328.31 VAT @ 5% on \u00a31,127.44 \u00a356.37 Total Electricity Charges \u00a31,183.81 \u2020 Average unit rate charged per kilowatt-hour.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            223.10108947753906,
+            794.3927001953125
+          ],
+          [
+            223.10108947753906,
+            1259.5137939453125
+          ],
+          [
+            923.2828369140625,
+            1259.5137939453125
+          ],
+          [
+            923.2828369140625,
+            794.3927001953125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "text_as_html": "<table><thead><tr><th colspan=\"3\">Breakdown by rate</th></tr><tr><th>Rate</th><th>Consumption</th><th>Cost</th></tr></thead><tbody><tr><td>21.55p/kWh</td><td>571.5 kWh</td><td>\u00a3123.158</td></tr><tr><td>29.14p/kWh</td><td>3011.8 kWh</td><td>\u00a3877.639</td></tr><tr><td>Total consumption</td><td>3583.3kWh @ 27.93p/kWh</td><td>\u00a31,000.80</td></tr><tr><td>Standing Charge</td><td>7 days @ 1404.72p/day</td><td>\u00a398.33</td></tr><tr><td>Capacity charge</td><td>7 days x 120kVA @ 3.37p/kVA/day</td><td>\u00a328.31</td></tr><tr><td>VAT @ 5% on \u00a31,127.44</td><td></td><td>\u00a356.37</td></tr><tr><td>Total Electricity</td><td>Charges</td><td>\u00a31,183.81</td></tr><tr><td colspan=\"3\">* Average unit rate charged per kilowatt-hour.</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1d4ac2ef5f2c6e0f1de7e9c039821795",
+    "text": "You have submitted a CCL Declaration to us which is effective from 8th July 2023. You have declared CCL qualifying usage on 100% of the electricity supplied at this meter point.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            223.7558135986328,
+            1318.1126708984375
+          ],
+          [
+            223.7558135986328,
+            1376.70654296875
+          ],
+          [
+            1178.5001401113882,
+            1376.70654296875
+          ],
+          [
+            1178.5001401113882,
+            1318.1126708984375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d1a283182eb859b53b2d12d16560bfdf",
+    "text": "You have submitted a VAT Declaration to us which is effective from 8th July 2023.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.18518606694442,
+            1398.46142578125
+          ],
+          [
+            228.18518606694442,
+            1424.45361328125
+          ],
+          [
+            1104.620361328125,
+            1424.45361328125
+          ],
+          [
+            1104.620361328125,
+            1398.46142578125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2205e21db9ef658143faf6c3eb289f4f",
+    "text": "You have declared VAT qualifying usage on 100% of the electricity supplied at this meter point.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.18518606694442,
+            1427.041015625
+          ],
+          [
+            228.18518606694442,
+            1453.954833984375
+          ],
+          [
+            1180.2052986669437,
+            1453.954833984375
+          ],
+          [
+            1180.2052986669437,
+            1427.041015625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "c2eae1578f19613c10c3dcc11eedc163",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "97e2c82c48398f08bf056a6bef5b2571",
+    "text": "Octopus Energy Limited Company Number 09263424",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            669.0,
+            2055.0
+          ],
+          [
+            669.0,
+            2103.0
+          ],
+          [
+            999.0,
+            2103.0
+          ],
+          [
+            999.0,
+            2055.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e33b98b4b54a126b764fabe294317c60",
+    "text": "VAT Number 358672751",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            690.3911743164062,
+            2105.111083984375
+          ],
+          [
+            690.3911743164062,
+            2132.83447265625
+          ],
+          [
+            981.0610961914062,
+            2132.83447265625
+          ],
+          [
+            981.0610961914062,
+            2105.111083984375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "parent_id": "97e2c82c48398f08bf056a6bef5b2571",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "cd01f128c050334b5af8117da7e023a3",
+    "text": "Powered by   for business  for business ",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            601.298583984375,
+            143.06649780273438
+          ],
+          [
+            601.298583984375,
+            378.06195068359375
+          ],
+          [
+            1049.654296875,
+            378.06195068359375
+          ],
+          [
+            1049.654296875,
+            143.06649780273438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "710a6943648cd425da4ee21798df243f",
+    "text": "About Your Tariff",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.3343963623047,
+            457.4583435058594
+          ],
+          [
+            181.3343963623047,
+            521.3524265972223
+          ],
+          [
+            735.0899658203125,
+            521.3524265972223
+          ],
+          [
+            735.0899658203125,
+            457.4583435058594
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "79bfca29154ed018f5704f04eee8dd0b",
+    "text": "Electricity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            184.8190155029297,
+            562.4013061523438
+          ],
+          [
+            184.8190155029297,
+            591.5322875976562
+          ],
+          [
+            314.7107238769531,
+            591.5322875976562
+          ],
+          [
+            314.7107238769531,
+            562.4013061523438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ffce15e3017d16f73e3d25ff446c6f65",
+    "text": "Tariff Name",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.67178344726562,
+            606.7706909179688
+          ],
+          [
+            185.67178344726562,
+            632.0676503833889
+          ],
+          [
+            308.8572998046875,
+            632.0676503833889
+          ],
+          [
+            308.8572998046875,
+            606.7706909179688
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b787bccdd51f5bf8defb2d3b1d724141",
+    "text": "Payment Method",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.4256591796875,
+            651.463134765625
+          ],
+          [
+            186.4256591796875,
+            676.2011659389445
+          ],
+          [
+            362.4208984375,
+            676.2011659389445
+          ],
+          [
+            362.4208984375,
+            651.463134765625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "951a473f6609841874d9cef4b7b58749",
+    "text": "Agreement End Date",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            187.0410277777778,
+            695.9690551757812
+          ],
+          [
+            187.0410277777778,
+            720.3346814945
+          ],
+          [
+            400.3519592285156,
+            720.3346814945
+          ],
+          [
+            400.3519592285156,
+            695.9690551757812
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0b11104122100e1be0f5ff22bea18cdd",
+    "text": "Estimated Annual Usage",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.31204223632812,
+            738.8410034179688
+          ],
+          [
+            186.31204223632812,
+            765.3064575195312
+          ],
+          [
+            432.6568603515625,
+            765.3064575195312
+          ],
+          [
+            432.6568603515625,
+            738.8410034179688
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e88c60cbc2c88ab30aede1560e9d01f7",
+    "text": "Green Octopus 12M Fixed",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            841.6843872070312,
+            606.02197265625
+          ],
+          [
+            841.6843872070312,
+            632.267822265625
+          ],
+          [
+            1101.4881591796875,
+            632.267822265625
+          ],
+          [
+            1101.4881591796875,
+            606.02197265625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c7880cc9eb0d940141463c132a2e19d4",
+    "text": "Direct Debit Monthly",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            841.482177734375,
+            650.1422729492188
+          ],
+          [
+            841.482177734375,
+            677.1198120117188
+          ],
+          [
+            1055.0286865234375,
+            677.1198120117188
+          ],
+          [
+            1055.0286865234375,
+            650.1422729492188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "320858cb23dea9f7f919f76aee8ea665",
+    "text": "8th Jul 2024",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            841.8171486975,
+            694.9141235351562
+          ],
+          [
+            841.8171486975,
+            720.3346814945
+          ],
+          [
+            970.447998046875,
+            720.3346814945
+          ],
+          [
+            970.447998046875,
+            694.9141235351562
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "862491fa611000a5e8eeb583688b299e",
+    "text": "0 kWh",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            841.8171486975,
+            739.2393188476562
+          ],
+          [
+            841.8171486975,
+            764.4681970500557
+          ],
+          [
+            913.9697875976562,
+            764.4681970500557
+          ],
+          [
+            913.9697875976562,
+            739.2393188476562
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "79bfca29154ed018f5704f04eee8dd0b",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b9702bc47c9ae9cbe9bb65f62dfdc5cf",
+    "text": "Electricity mix",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            187.01988220214844,
+            940.9783935546875
+          ],
+          [
+            187.01988220214844,
+            1007.0935377083333
+          ],
+          [
+            639.3677978515625,
+            1007.0935377083333
+          ],
+          [
+            639.3677978515625,
+            940.9783935546875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2d6722b24ff34710dd85a08786e20214",
+    "text": "We believe that renewable energy is no longer an opportunity \u2013 it's a responsibility. Because of that, every single one of our business tariffs are powered by REGO-backed 100% renewable electricity. As a group we also invest heavily in renewable generation; in fact, we're proud to say that the solar farms we've funded generate over 40% of all the UK's large scale solar.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            179.5816650390625,
+            1049.0673828125
+          ],
+          [
+            179.5816650390625,
+            1199.98046875
+          ],
+          [
+            1054.887451171875,
+            1199.98046875
+          ],
+          [
+            1054.887451171875,
+            1049.0673828125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "parent_id": "b9702bc47c9ae9cbe9bb65f62dfdc5cf",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "99b490e55d903f98bd3530c9fc29c893",
+    "text": "[e]V]:4 ELECTRICITY IS 100% RENEWABLE",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            1103.573611111111,
+            933.5586111111112
+          ],
+          [
+            1103.573611111111,
+            1288.9644444444446
+          ],
+          [
+            1458.9794444444444,
+            1288.9644444444446
+          ],
+          [
+            1458.9794444444444,
+            933.5586111111112
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "5ce2494d0803bb731c614f7bfe142ffc",
+    "text": "Octopus Energy Limited Company Number 09263424",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            662.2256181208332,
+            2056.68505859375
+          ],
+          [
+            662.2256181208332,
+            2112.5000932033336
+          ],
+          [
+            994.3460083007812,
+            2112.5000932033336
+          ],
+          [
+            994.3460083007812,
+            2056.68505859375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "bf6d239a86b3377c3ccae7738c504591",
+    "text": "VAT Number 358672751",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            684.2010498046875,
+            2113.547119140625
+          ],
+          [
+            684.2010498046875,
+            2140.093994140625
+          ],
+          [
+            973.564697265625,
+            2140.093994140625
+          ],
+          [
+            973.564697265625,
+            2113.547119140625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "87b5d8ef875e841c7f4b19863a7dc211",
+    "text": "Powered by   for business  for business ",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            605.4132080078125,
+            141.75213623046875
+          ],
+          [
+            605.4132080078125,
+            384.61602783203125
+          ],
+          [
+            1050.695556640625,
+            384.61602783203125
+          ],
+          [
+            1050.695556640625,
+            141.75213623046875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b1aedad7a845eec888e33201f61a3709",
+    "text": "Additional Information",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.70936584472656,
+            451.3018798828125
+          ],
+          [
+            186.70936584472656,
+            492.57787597222233
+          ],
+          [
+            612.6444702148438,
+            492.57787597222233
+          ],
+          [
+            612.6444702148438,
+            451.3018798828125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "822da6de3566d6eda5bb1a4f09757b8c",
+    "text": "Contacting us",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.2396697998047,
+            530.6701049804688
+          ],
+          [
+            185.2396697998047,
+            565.1824202777779
+          ],
+          [
+            409.6551818847656,
+            565.1824202777779
+          ],
+          [
+            409.6551818847656,
+            530.6701049804688
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2893313c711b8cf52aabea3df10fc894",
+    "text": "Contact us by email and get a response within hours. Of course, if you need to you can also get a hold of us on the phone, or even by post.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.5661163330078,
+            595.2384643554688
+          ],
+          [
+            186.5661163330078,
+            685.7200927734375
+          ],
+          [
+            798.9719848632812,
+            685.7200927734375
+          ],
+          [
+            798.9719848632812,
+            595.2384643554688
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "822da6de3566d6eda5bb1a4f09757b8c",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d981e05f95a98714a031f00221bde9b5",
+    "text": "Email: business@octopus.energy",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            182.41729736328125,
+            697.2816772460938
+          ],
+          [
+            182.41729736328125,
+            725.1246948242188
+          ],
+          [
+            568.528564453125,
+            725.1246948242188
+          ],
+          [
+            568.528564453125,
+            697.2816772460938
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "822da6de3566d6eda5bb1a4f09757b8c",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "020f9aa388ec0a423b9c1ed914c31827",
+    "text": "Phone: 020 3389 5613",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.3254852294922,
+            736.1384887695312
+          ],
+          [
+            186.3254852294922,
+            763.720461736111
+          ],
+          [
+            447.992431640625,
+            763.720461736111
+          ],
+          [
+            447.992431640625,
+            736.1384887695312
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "822da6de3566d6eda5bb1a4f09757b8c",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "856ae53f2293a7e43428aabf1741f3ac",
+    "text": "Trading office: UK House, 5th floor, 164-182 Oxford Street, London, W1D 1NN",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.96133422851562,
+            774.8032836914062
+          ],
+          [
+            186.96133422851562,
+            833.9329617361108
+          ],
+          [
+            775.59375,
+            833.9329617361108
+          ],
+          [
+            775.59375,
+            774.8032836914062
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "822da6de3566d6eda5bb1a4f09757b8c",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+    "text": "Advice and complaints",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.23141479492188,
+            869.1261596679688
+          ],
+          [
+            185.23141479492188,
+            903.7063091666669
+          ],
+          [
+            551.476318359375,
+            903.7063091666669
+          ],
+          [
+            551.476318359375,
+            869.1261596679688
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fb10e0bbfc4bd512eb56edc508e358f5",
+    "text": "A-2981",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            634.0147705078125,
+            851.4467163085938
+          ],
+          [
+            634.0147705078125,
+            879.3254650616635
+          ],
+          [
+            714.0551147460938,
+            879.3254650616635
+          ],
+          [
+            714.0551147460938,
+            851.4467163085938
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9ddecc582d7a6ec0a1fadd6df9ec1ee3",
+    "text": "If you feel that our service has not met your expectations, please get in touch so we can put things right:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.2508544921875,
+            934.9784545898438
+          ],
+          [
+            185.2508544921875,
+            1022.0018506250001
+          ],
+          [
+            720.3519343027779,
+            1022.0018506250001
+          ],
+          [
+            720.3519343027779,
+            934.9784545898438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2e086c925f202208b1a3cf0c7b9f804e",
+    "text": "First: Contact our team.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            184.0150909423828,
+            1034.671142578125
+          ],
+          [
+            184.0150909423828,
+            1062.123239513889
+          ],
+          [
+            461.29632568359375,
+            1062.123239513889
+          ],
+          [
+            461.29632568359375,
+            1034.671142578125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "510fc6b96f92efc1862439b4abcc869f",
+    "text": "Then: If an advisor is not able to resolve your query, you can ask for it to be escalated to a specialist or team leader as appropriate.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.58787536621094,
+            1075.8505859375
+          ],
+          [
+            181.58787536621094,
+            1163.1728515625
+          ],
+          [
+            778.4576416015625,
+            1163.1728515625
+          ],
+          [
+            778.4576416015625,
+            1075.8505859375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "94371aff33ea0eac59cca0a71ba2023a",
+    "text": "Finally: If you're still not happy with our decision, you can contact our Operations Manager for an independent review, and you will receive a reply within 5 working days.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            179.371337890625,
+            1175.337646484375
+          ],
+          [
+            179.371337890625,
+            1293.20068359375
+          ],
+          [
+            789.7719482027777,
+            1293.20068359375
+          ],
+          [
+            789.7719482027777,
+            1175.337646484375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c9978a7e1a6178ba700ee29c6d75b1e8",
+    "text": "If you have followed the above steps, but your complaint remains unresolved after 8 weeks you can contact the Energy Ombudsman on 0330 440 1624 or at www.energyombudsman.org. This is a free and independent service whose decisions we must abide by.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            183.5640411376953,
+            1304.829345703125
+          ],
+          [
+            183.5640411376953,
+            1483.3976839583336
+          ],
+          [
+            797.8282470703125,
+            1483.3976839583336
+          ],
+          [
+            797.8282470703125,
+            1304.829345703125
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0b42216a00d5f4da387c0a0608c63f64",
+    "text": "You can read our complaints policy on our website.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            187.0410277777778,
+            1496.0269775390625
+          ],
+          [
+            187.0410277777778,
+            1525.5191650390625
+          ],
+          [
+            766.8867797851562,
+            1525.5191650390625
+          ],
+          [
+            766.8867797851562,
+            1496.0269775390625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "a8ec9058c3c82e9d8d0708a31a548e3a",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "664df84ebfb9a87c0195702ac0495b38",
+    "text": "Ending your contract with us",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            897.8530555555556,
+            529.5321044921875
+          ],
+          [
+            897.8530555555556,
+            564.818359375
+          ],
+          [
+            1358.1463623046875,
+            564.818359375
+          ],
+          [
+            1358.1463623046875,
+            529.5321044921875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0cfe06d5e14e91cbd1e261808d17380e",
+    "text": "You can end your contract at any time by giving us 30 days' notice. However, the effects of ending your contract differ depending on where you are within your contract period:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            895.4970092773438,
+            595.8157348632812
+          ],
+          [
+            895.4970092773438,
+            712.7593506249998
+          ],
+          [
+            1512.4208984375,
+            712.7593506249998
+          ],
+          [
+            1512.4208984375,
+            595.8157348632812
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "664df84ebfb9a87c0195702ac0495b38",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "74a03974e259eb31896a47d862ee68a4",
+    "text": "In contract, not within the final 30 days: we reserve the right to charge exit fees. Please see section 12 of our Terms and Conditions for more details.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            894.3509521484375,
+            724.7777099609375
+          ],
+          [
+            894.3509521484375,
+            843.1537950694443
+          ],
+          [
+            1446.152099609375,
+            843.1537950694443
+          ],
+          [
+            1446.152099609375,
+            724.7777099609375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "664df84ebfb9a87c0195702ac0495b38",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "11491df1ccddd2b96a0d0777e32897e1",
+    "text": "In contract, within the final 30 days: you can leave at any time after the last day of your contract (even if you give notice less than 30 days before the contract end date)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            894.7727661132812,
+            856.2621459960938
+          ],
+          [
+            894.7727661132812,
+            973.548239513889
+          ],
+          [
+            1503.4169921875,
+            973.548239513889
+          ],
+          [
+            1503.4169921875,
+            856.2621459960938
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "664df84ebfb9a87c0195702ac0495b38",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "672b7bcebf638930a6e872cbcc1215cc",
+    "text": "Out of contract: If you are out of contract with us, you'll simply be moved onto to our fairly-priced Variable tariff (we don't believe in expensive out of contract rates). On this tariff you're free to leave at any time \u2013 though of course we'd love you to get in touch to see if you could save money by re-fixing.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            893.1102294921875,
+            986.7069702148438
+          ],
+          [
+            893.1102294921875,
+            1165.6534423828125
+          ],
+          [
+            1484.20556640625,
+            1165.6534423828125
+          ],
+          [
+            1484.20556640625,
+            986.7069702148438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "664df84ebfb9a87c0195702ac0495b38",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f2a9552c5e13e46da63a4d252641659f",
+    "text": "Paying by bank transfer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            897.8530555555556,
+            1188.553466796875
+          ],
+          [
+            897.8530555555556,
+            1225.2960205078125
+          ],
+          [
+            1280.7720947265625,
+            1225.2960205078125
+          ],
+          [
+            1280.7720947265625,
+            1188.553466796875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eda33f4b2780137248da8143353493da",
+    "text": "We are also able to accept one-off payments by bank transfer. However, please do not use this method if you already have an active direct debit with us as you may end up paying twice.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            892.6459350585938,
+            1267.624755859375
+          ],
+          [
+            892.6459350585938,
+            1384.8453369140625
+          ],
+          [
+            1507.115234375,
+            1384.8453369140625
+          ],
+          [
+            1507.115234375,
+            1267.624755859375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "f2a9552c5e13e46da63a4d252641659f",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2784cf88c970397b45fd798661bbcfe0",
+    "text": "It's important that you enter your account reference as the payment reference, otherwise the payment may not be allocated to your account:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            893.1018676757812,
+            1398.655029296875
+          ],
+          [
+            893.1018676757812,
+            1485.1154617361115
+          ],
+          [
+            1491.854248046875,
+            1485.1154617361115
+          ],
+          [
+            1491.854248046875,
+            1398.655029296875
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "f2a9552c5e13e46da63a4d252641659f",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5db690627d98d7a17648d834410d7eaa",
+    "text": "Your account reference: A-3DB09C3C A-2981 Account number: 44594118 Sort Code: 40-05-30",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            897.8530555555556,
+            1498.28759765625
+          ],
+          [
+            897.8530555555556,
+            1585.4190728472222
+          ],
+          [
+            1344.7951736555553,
+            1585.4190728472222
+          ],
+          [
+            1344.7951736555553,
+            1498.28759765625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "f2a9552c5e13e46da63a4d252641659f",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f83c82e6b865f5b87425c1589134969",
+    "text": "Octopus Energy Limited Company Number 09263424",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            662.2256181208332,
+            2058.6005859375
+          ],
+          [
+            662.2256181208332,
+            2112.5000932033336
+          ],
+          [
+            993.4805297851562,
+            2112.5000932033336
+          ],
+          [
+            993.4805297851562,
+            2058.6005859375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "f2a9552c5e13e46da63a4d252641659f",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5b7328d1fdbe7a9757e3a8374e4afbc6",
+    "text": "VAT Number 358672751",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            686.21484375,
+            2113.330322265625
+          ],
+          [
+            686.21484375,
+            2139.620849609375
+          ],
+          [
+            972.5152587890625,
+            2139.620849609375
+          ],
+          [
+            972.5152587890625,
+            2113.330322265625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1654,
+        "layout_height": 2339
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "parent_id": "f2a9552c5e13e46da63a4d252641659f",
+      "filename": "I-575655elec_flat_f2f431aa-64e7-4a42-ac50-17fc75a3cfe9.pdf"
+    }
+  }
+]

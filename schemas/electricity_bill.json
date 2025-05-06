@@ -1,0 +1,57 @@
+{
+  "name": "Electricity Bill",
+  "fields": [
+    {
+      "name": "address_of_consuming_site",
+      "description": "The physical address where electricity is being consumed"
+    },
+    {
+      "name": "start_date_of_consumption",
+      "description": "The start date of the billing period"
+    },
+    {
+      "name": "end_date_of_consumption",
+      "description": "The end date of the billing period"
+    },
+    {
+      "name": "total_amount_due",
+      "description": "The total amount due for payment"
+    },
+    {
+      "name": "account_number",
+      "description": "The customer account number"
+    },
+    {
+      "name": "meter_number",
+      "description": "The electricity meter identification number"
+    },
+    {
+      "name": "consumption_amount",
+      "description": "The total electricity consumption amount"
+    },
+    {
+      "name": "consumption_unit",
+      "description": "The unit of electricity consumption (e.g., kWh)"
+    },
+    {
+      "name": "payment_due_date",
+      "description": "The date by which payment should be made"
+    },
+    {
+      "name": "supplier_name",
+      "description": "The name of the electricity supplier"
+    },
+    {
+      "name": "rate_plan",
+      "description": "The electricity rate plan or tariff"
+    },
+    {
+      "name": "peak_consumption",
+      "description": "The amount of electricity consumed during peak hours"
+    },
+    {
+      "name": "off_peak_consumption",
+      "description": "The amount of electricity consumed during off-peak hours"
+    }
+  ]
+} 

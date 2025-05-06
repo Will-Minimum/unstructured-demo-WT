@@ -1,0 +1,379 @@
+{
+  "address_of_consuming_site": {
+    "value": "Rosewood Manor, 58 Coventry Road, Market Konex Development, Judds Ln, Coventry CV6 6GE",
+    "confidence": "high",
+    "source_text": "Supply Address: Rosewood Manor, 58 Coventry Road, Market Konex Development, Judds Ln, Coventry CV6 6GE",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          228.18516666666665,
+          603.03759765625
+        ],
+        [
+          228.18516666666665,
+          627.77734375
+        ],
+        [
+          847.1179809570312,
+          627.77734375
+        ],
+        [
+          847.1179809570312,
+          603.03759765625
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "start_date_of_consumption": {
+    "value": "01 Jul 2024",
+    "confidence": "high",
+    "source_text": "Electricity (01 Jul 2024 - 07 Jul 2024)",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          183.13705444335938,
+          1203.171142578125
+        ],
+        [
+          183.13705444335938,
+          1393.0660400390625
+        ],
+        [
+          1472.9903564453125,
+          1393.0660400390625
+        ],
+        [
+          1472.9903564453125,
+          1203.171142578125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "end_date_of_consumption": {
+    "value": "07 Jul 2024",
+    "confidence": "high",
+    "source_text": "Electricity (01 Jul 2024 - 07 Jul 2024)",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          183.13705444335938,
+          1203.171142578125
+        ],
+        [
+          183.13705444335938,
+          1393.0660400390625
+        ],
+        [
+          1472.9903564453125,
+          1393.0660400390625
+        ],
+        [
+          1472.9903564453125,
+          1203.171142578125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "total_amount_due": {
+    "value": "\u00a31,183.81",
+    "confidence": "high",
+    "source_text": "Your direct debit payment of \u00a31,183.81 will be taken in 7 days.",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          183.40724182128906,
+          1435.1868896484375
+        ],
+        [
+          183.40724182128906,
+          1464.6561279296875
+        ],
+        [
+          872.9413452148438,
+          1464.6561279296875
+        ],
+        [
+          872.9413452148438,
+          1435.1868896484375
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "account_number": {
+    "value": "A-2981",
+    "confidence": "high",
+    "source_text": "A-2981",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          634.7057495117188,
+          851.3736572265625
+        ],
+        [
+          634.7057495117188,
+          879.3254650616635
+        ],
+        [
+          716.8924560546875,
+          879.3254650616635
+        ],
+        [
+          716.8924560546875,
+          851.3736572265625
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "meter_number": {
+    "value": "K20W003187",
+    "confidence": "high",
+    "source_text": "W210M455189 Energy Charges for Meter K20W003187",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          228.18518606694442,
+          751.8474731445312
+        ],
+        [
+          228.18518606694442,
+          776.9769897460938
+        ],
+        [
+          643.43310546875,
+          776.9769897460938
+        ],
+        [
+          643.43310546875,
+          751.8474731445312
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "consumption_amount": {
+    "value": "3583.3",
+    "confidence": "high",
+    "source_text": "Total consumption 3583.3kWh @ 27.93p/kWh",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          223.10108947753906,
+          794.3927001953125
+        ],
+        [
+          223.10108947753906,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          794.3927001953125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "consumption_unit": {
+    "value": "kWh",
+    "confidence": "high",
+    "source_text": "Total consumption 3583.3kWh @ 27.93p/kWh",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          223.10108947753906,
+          794.3927001953125
+        ],
+        [
+          223.10108947753906,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          794.3927001953125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "payment_due_date": {
+    "value": "in 7 days from 13th Aug 2024",
+    "confidence": "medium",
+    "source_text": "Your direct debit payment of \u00a31,183.81 will be taken in 7 days.",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          183.40724182128906,
+          1435.1868896484375
+        ],
+        [
+          183.40724182128906,
+          1464.6561279296875
+        ],
+        [
+          872.9413452148438,
+          1464.6561279296875
+        ],
+        [
+          872.9413452148438,
+          1435.1868896484375
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "supplier_name": {
+    "value": "Octopus Energy Limited",
+    "confidence": "high",
+    "source_text": "Octopus Energy Limited",
+    "page": 1,
+    "coordinates": {
+      "points": [
+        [
+          689.0,
+          2062.0
+        ],
+        [
+          689.0,
+          2083.0
+        ],
+        [
+          963.0,
+          2083.0
+        ],
+        [
+          963.0,
+          2062.0
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "rate_plan": {
+    "value": "Green Octopus 12M Fixed",
+    "confidence": "high",
+    "source_text": "Green Octopus 12M Fixed (1st Jul 2024 - 7th Jul 2024)",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          227.1901397705078,
+          707.0526123046875
+        ],
+        [
+          227.1901397705078,
+          732.7360229492188
+        ],
+        [
+          771.31396484375,
+          732.7360229492188
+        ],
+        [
+          771.31396484375,
+          707.0526123046875
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "peak_consumption": {
+    "value": "3011.8 kWh",
+    "confidence": "medium",
+    "source_text": "29.14p/kWh 3011.8 kWh \u00a3877.639",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          223.10108947753906,
+          794.3927001953125
+        ],
+        [
+          223.10108947753906,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          794.3927001953125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  },
+  "off_peak_consumption": {
+    "value": "571.5 kWh",
+    "confidence": "medium",
+    "source_text": "21.55p/kWh 571.5 kWh \u00a3123.158",
+    "page": 2,
+    "coordinates": {
+      "points": [
+        [
+          223.10108947753906,
+          794.3927001953125
+        ],
+        [
+          223.10108947753906,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          1259.5137939453125
+        ],
+        [
+          923.2828369140625,
+          794.3927001953125
+        ]
+      ],
+      "system": "PixelSpace",
+      "layout_width": 1654,
+      "layout_height": 2339
+    }
+  }
+}

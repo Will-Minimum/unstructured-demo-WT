@@ -1,0 +1,67 @@
+{
+  "id": "gas_bill",
+  "name": "Gas Bill",
+  "description": "Schema for extracting information from gas bills",
+  "fields": [
+    {
+      "name": "address_of_consuming_site",
+      "description": "The address of the site where the gas is consumed, not a billing address",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "start_date_of_consumption",
+      "description": "The start date of the consumption period",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "end_date_of_consumption",
+      "description": "The end date of the consumption period",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "total_amount_due",
+      "description": "The total amount due for payment",
+      "type": "currency",
+      "required": true
+    },
+    {
+      "name": "account_number",
+      "description": "The customer's account number",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "meter_number",
+      "description": "The gas meter number",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "consumption_amount",
+      "description": "The amount of gas consumed in the period (in cubic meters or other units)",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "consumption_unit",
+      "description": "The unit of measurement for gas consumption (e.g., cubic meters, therms)",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "payment_due_date",
+      "description": "The date by which payment must be made",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "supplier_name",
+      "description": "The name of the gas supplier company",
+      "type": "string",
+      "required": true
+    }
+  ]
+}

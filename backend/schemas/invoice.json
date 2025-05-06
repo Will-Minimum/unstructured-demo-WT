@@ -1,0 +1,91 @@
+{
+  "id": "invoice",
+  "name": "Invoice",
+  "description": "Schema for extracting information from invoices",
+  "fields": [
+    {
+      "name": "invoice_number",
+      "description": "The unique identifier for the invoice",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "invoice_date",
+      "description": "The date when the invoice was issued",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "due_date",
+      "description": "The date by which payment must be made",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "total_amount",
+      "description": "The total amount to be paid",
+      "type": "currency",
+      "required": true
+    },
+    {
+      "name": "tax_amount",
+      "description": "The amount of tax included in the total",
+      "type": "currency",
+      "required": false
+    },
+    {
+      "name": "subtotal",
+      "description": "The amount before tax",
+      "type": "currency",
+      "required": false
+    },
+    {
+      "name": "vendor_name",
+      "description": "The name of the company issuing the invoice",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "vendor_address",
+      "description": "The address of the company issuing the invoice",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "vendor_contact",
+      "description": "Contact information for the vendor (phone, email, etc.)",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "customer_name",
+      "description": "The name of the customer being billed",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "customer_address",
+      "description": "The address of the customer being billed",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "customer_id",
+      "description": "The customer's account number or ID",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "payment_terms",
+      "description": "The terms of payment (e.g., Net 30)",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "line_items",
+      "description": "A list of items or services being billed",
+      "type": "array",
+      "required": false
+    }
+  ]
+}

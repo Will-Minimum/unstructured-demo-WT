@@ -1,0 +1,11 @@
+---
+description: This project's tech stack
+globs: 
+alwaysApply: false
+---
+
+# technical stack
+- Python / Flask for backend
+- React for frontend 
+- sqlite if database is neede
+- Python tests

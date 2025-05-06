@@ -1,0 +1,640 @@
+interactions:
+- request:
+    body: '{"model": "claude-3-7-sonnet-latest", "max_tokens": 4096, "temperature":
+      0, "messages": [{"role": "user", "content": "I have a document that appears
+      to be a Electricity Bill. I need to extract specific information from it.\n\nHere''s
+      a structured JSON document that has been extracted using Unstructured.io:\n```\n[\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"Powered by   for business  for business \",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            600.7066040039062,\n            142.3296356201172\n          ],\n          [\n            600.7066040039062,\n            379.2493896484375\n          ],\n          [\n            1050.982421875,\n            379.2493896484375\n          ],\n          [\n            1050.982421875,\n            142.3296356201172\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Konex General TopCo\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            189.37681579589844,\n            475.9960632324219\n          ],\n          [\n            189.37681579589844,\n            504.35152120449135\n          ],\n          [\n            457.1381530761719,\n            504.35152120449135\n          ],\n          [\n            457.1381530761719,\n            475.9960632324219\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"1 Hornsey Road\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            190.8472238232222,\n            506.1219177246094\n          ],\n          [\n            190.8472238232222,\n            532.864013671875\n          ],\n          [\n            386.2695007324219,\n            532.864013671875\n          ],\n          [\n            386.2695007324219,\n            506.1219177246094\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Islington\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            189.71478271484375,\n            534.6022338867188\n          ],\n          [\n            189.71478271484375,\n            561.5486450195312\n          ],\n          [\n            297.8376159667969,\n            561.5486450195312\n          ],\n          [\n            297.8376159667969,\n            534.6022338867188\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"London\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            190.3929901123047,\n            563.4246215820312\n          ],\n          [\n            190.3929901123047,\n            589.5823670522692\n          ],\n          [\n            284.8125305175781,\n            589.5823670522692\n          ],\n          [\n            284.8125305175781,\n            563.4246215820312\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"N7 7AJ\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            189.33087158203125,\n            590.238525390625\n          ],\n          [\n            189.33087158203125,\n            617.9925654153246\n          ],\n          [\n            278.4326171875,\n            617.9925654153246\n          ],\n          [\n            278.4326171875,\n            590.238525390625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Invoice\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            684.2386474609375,\n            674.5172729492188\n          ],\n          [\n            684.2386474609375,\n            756.9762437500003\n          ],\n          [\n            973.9053955078125,\n            756.9762437500003\n          ],\n          [\n            973.9053955078125,\n            674.5172729492188\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Invoice number:\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            185.5439910888672,\n            812.816162109375\n          ],\n          [\n            185.5439910888672,\n            842.7178868055556\n          ],\n          [\n            402.078125,\n            842.7178868055556\n          ],\n          [\n            402.078125,\n            812.816162109375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Account number:\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            184.73680114746094,\n            857.9877319335938\n          ],\n          [\n            184.73680114746094,\n            887.8544368055556\n          ],\n          [\n            417.3435363769531,\n            887.8544368055556\n          ],\n          [\n            417.3435363769531,\n            857.9877319335938\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Date issued:\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            186.4318389892578,\n            903.8659057617188\n          ],\n          [\n            186.4318389892578,\n            932.9909868055557\n          ],\n          [\n            352.62530517578125,\n            932.9909868055557\n          ],\n          [\n            352.62530517578125,\n            903.8659057617188\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"I-575655\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            635.138916015625,\n            811.1597290039062\n          ],\n          [\n            635.138916015625,\n            838.1543502016635\n          ],\n          [\n            735.1035766601562,\n            838.1543502016635\n          ],\n          [\n            735.1035766601562,\n            811.1597290039062\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"A-2981\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            634.7057495117188,\n            851.3736572265625\n          ],\n          [\n            634.7057495117188,\n            879.3254650616635\n          ],\n          [\n            716.8924560546875,\n            879.3254650616635\n          ],\n          [\n            716.8924560546875,\n            851.3736572265625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"13th Aug 2024\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            633.3865911419443,\n            903.0729370117188\n          ],\n          [\n            633.3865911419443,\n            933.446044921875\n          ],\n          [\n            814.8165893554688,\n            933.446044921875\n          ],\n          [\n            814.8165893554688,\n            903.0729370117188\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"ae0dd2c302f46c2bd88b4e2109ea2ca2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Your charges\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            182.66943359375,\n            1058.3665771484375\n          ],\n          [\n            182.66943359375,\n            1110.7025146484375\n          ],\n          [\n            506.9674377441406,\n            1110.7025146484375\n          ],\n          [\n            506.9674377441406,\n            1058.3665771484375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Table\",\n    \"text\": \"Net charges CCL Electricity (01 Jul 2024 - 07 Jul
+      2024) \\u00a31,127.44 \\u00a30.00 Total charges for bill Current balance VAT
+      \\u00a356.37 Total \\u00a31,183.81 \\u00a31,183.81 -\\u00a33,599.67\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            183.13705444335938,\n            1203.171142578125\n          ],\n          [\n            183.13705444335938,\n            1393.0660400390625\n          ],\n          [\n            1472.9903564453125,\n            1393.0660400390625\n          ],\n          [\n            1472.9903564453125,\n            1203.171142578125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"text_as_html\": \"<table><thead><tr><th></th><th>Net
+      charges</th><th>ccL</th><th>VAT</th><th>Total</th></tr></thead><tbody><tr><td>Electricity
+      (01 Jul 2024 - 07 Jul 2024)</td><td>\\u00a31,127.44</td><td>\\u00a30.00</td><td>\\u00a356.37</td><td>\\u00a31,183.81</td></tr><tr><td>Total
+      charges for bill</td><td></td><td></td><td></td><td>\\u00a31,183.81</td></tr><tr><td>Current
+      balance</td><td></td><td></td><td></td><td>-\\u00a33,599.67</td></tr></tbody></table>\",\n      \"filetype\":
+      \"application/pdf\",\n      \"languages\": [\n        \"eng\"\n      ],\n      \"page_number\":
+      1,\n      \"parent_id\": \"cbb95164cb31e42e18d5b7ed3b1f3c7a\",\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Your direct debit payment of \\u00a31,183.81
+      will be taken in 7 days.\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            183.40724182128906,\n            1435.1868896484375\n          ],\n          [\n            183.40724182128906,\n            1464.6561279296875\n          ],\n          [\n            872.9413452148438,\n            1464.6561279296875\n          ],\n          [\n            872.9413452148438,\n            1435.1868896484375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"parent_id\":
+      \"cbb95164cb31e42e18d5b7ed3b1f3c7a\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Octopus Energy Limited\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            689.0,\n            2062.0\n          ],\n          [\n            689.0,\n            2083.0\n          ],\n          [\n            963.0,\n            2083.0\n          ],\n          [\n            963.0,\n            2062.0\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Footer\",\n    \"text\": \"Company Number 09263424\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            661.2216796875,\n            2086.5244140625\n          ],\n          [\n            661.2216796875,\n            2112.5000932033336\n          ],\n          [\n            991.2971801757812,\n            2112.5000932033336\n          ],\n          [\n            991.2971801757812,\n            2086.5244140625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Footer\",\n    \"text\": \"VAT Number 358672751\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            685.2860717773438,\n            2114.04833984375\n          ],\n          [\n            685.2860717773438,\n            2139.97265625\n          ],\n          [\n            972.185546875,\n            2139.97265625\n          ],\n          [\n            972.185546875,\n            2114.04833984375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 1,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"Powered by   for business  for business \",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            610.8222045898438,\n            134.91709899902344\n          ],\n          [\n            610.8222045898438,\n            370.1163635253906\n          ],\n          [\n            1057.9674072265625,\n            370.1163635253906\n          ],\n          [\n            1057.9674072265625,\n            134.91709899902344\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            163.8607635498047,\n            532.8032836914062\n          ],\n          [\n            163.8607635498047,\n            580.5344848632812\n          ],\n          [\n            212.82647705078125,\n            580.5344848632812\n          ],\n          [\n            212.82647705078125,\n            532.8032836914062\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Your Energy Charges In Detail\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            225.31874084472656,\n            460.32696533203125\n          ],\n          [\n            225.31874084472656,\n            500.9410705566406\n          ],\n          [\n            788.1702270507812,\n            500.9410705566406\n          ],\n          [\n            788.1702270507812,\n            460.32696533203125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Table\",\n    \"text\": \"Electricity Supply number S 0 845 1170001317520
+      L02\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\": [\n          [\n            228.18518606694442,\n            524.8963012695312\n          ],\n          [\n            228.18518606694442,\n            594.2345581054688\n          ],\n          [\n            919.8103637695312,\n            594.2345581054688\n          ],\n          [\n            919.8103637695312,\n            524.8963012695312\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"text_as_html\": \"<table><thead><tr><th>Electricity</th><th>Supply
+      number</th><th>S</th><th>[]</th><th>845</th><th>LO2</th></tr></thead><tbody><tr><td></td><td></td><td
+      colspan=\\\"4\\\">1170001317520</td></tr></tbody></table>\",\n      \"filetype\":
+      \"application/pdf\",\n      \"languages\": [\n        \"eng\"\n      ],\n      \"page_number\":
+      2,\n      \"parent_id\": \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Supply Address: Rosewood Manor, 58 Coventry
+      Road, Market Konex Development, Judds Ln, Coventry CV6 6GE\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            228.18516666666665,\n            603.03759765625\n          ],\n          [\n            228.18516666666665,\n            627.77734375\n          ],\n          [\n            847.1179809570312,\n            627.77734375\n          ],\n          [\n            847.1179809570312,\n            603.03759765625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Postcode area alpha identifier: R T\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            227.37332153320312,\n            662.1094970703125\n          ],\n          [\n            227.37332153320312,\n            686.5396783333337\n          ],\n          [\n            557.5291137695312,\n            686.5396783333337\n          ],\n          [\n            557.5291137695312,\n            662.1094970703125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Green Octopus 12M Fixed (1st Jul 2024 -
+      7th Jul 2024)\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            227.1901397705078,\n            707.0526123046875\n          ],\n          [\n            227.1901397705078,\n            732.7360229492188\n          ],\n          [\n            771.31396484375,\n            732.7360229492188\n          ],\n          [\n            771.31396484375,\n            707.0526123046875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"W210M455189 Energy Charges for Meter K20W003187\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            228.18518606694442,\n            751.8474731445312\n          ],\n          [\n            228.18518606694442,\n            776.9769897460938\n          ],\n          [\n            643.43310546875,\n            776.9769897460938\n          ],\n          [\n            643.43310546875,\n            751.8474731445312\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Table\",\n    \"text\": \"Breakdown by rate Rate Consumption Cost 21.55p/kWh
+      571.5 kWh \\u00a3123.158 29.14p/kWh 3011.8 kWh \\u00a3877.639 Total consumption
+      3583.3kWh @ 27.93p/kWh \\u2020 \\u00a31,000.80 Standing Charge 7 days @ 1404.72p/day
+      \\u00a398.33 7 days x 120kVA Capacity charge @ 3.37p/kVA/day \\u00a328.31 VAT
+      @ 5% on \\u00a31,127.44 \\u00a356.37 Total Electricity Charges \\u00a31,183.81
+      \\u2020 Average unit rate charged per kilowatt-hour.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            223.10108947753906,\n            794.3927001953125\n          ],\n          [\n            223.10108947753906,\n            1259.5137939453125\n          ],\n          [\n            923.2828369140625,\n            1259.5137939453125\n          ],\n          [\n            923.2828369140625,\n            794.3927001953125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"text_as_html\": \"<table><thead><tr><th colspan=\\\"3\\\">Breakdown
+      by rate</th></tr><tr><th>Rate</th><th>Consumption</th><th>Cost</th></tr></thead><tbody><tr><td>21.55p/kWh</td><td>571.5
+      kWh</td><td>\\u00a3123.158</td></tr><tr><td>29.14p/kWh</td><td>3011.8 kWh</td><td>\\u00a3877.639</td></tr><tr><td>Total
+      consumption</td><td>3583.3kWh @ 27.93p/kWh</td><td>\\u00a31,000.80</td></tr><tr><td>Standing
+      Charge</td><td>7 days @ 1404.72p/day</td><td>\\u00a398.33</td></tr><tr><td>Capacity
+      charge</td><td>7 days x 120kVA @ 3.37p/kVA/day</td><td>\\u00a328.31</td></tr><tr><td>VAT
+      @ 5% on \\u00a31,127.44</td><td></td><td>\\u00a356.37</td></tr><tr><td>Total
+      Electricity</td><td>Charges</td><td>\\u00a31,183.81</td></tr><tr><td colspan=\\\"3\\\">*
+      Average unit rate charged per kilowatt-hour.</td></tr></tbody></table>\",\n      \"filetype\":
+      \"application/pdf\",\n      \"languages\": [\n        \"eng\"\n      ],\n      \"page_number\":
+      2,\n      \"parent_id\": \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"You have submitted a CCL Declaration to
+      us which is effective from 8th July 2023. You have declared CCL qualifying usage
+      on 100% of the electricity supplied at this meter point.\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            223.7558135986328,\n            1318.1126708984375\n          ],\n          [\n            223.7558135986328,\n            1376.70654296875\n          ],\n          [\n            1178.5001401113882,\n            1376.70654296875\n          ],\n          [\n            1178.5001401113882,\n            1318.1126708984375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"You have submitted a VAT Declaration to
+      us which is effective from 8th July 2023.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            228.18518606694442,\n            1398.46142578125\n          ],\n          [\n            228.18518606694442,\n            1424.45361328125\n          ],\n          [\n            1104.620361328125,\n            1424.45361328125\n          ],\n          [\n            1104.620361328125,\n            1398.46142578125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"You have declared VAT qualifying usage on
+      100% of the electricity supplied at this meter point.\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            228.18518606694442,\n            1427.041015625\n          ],\n          [\n            228.18518606694442,\n            1453.954833984375\n          ],\n          [\n            1180.2052986669437,\n            1453.954833984375\n          ],\n          [\n            1180.2052986669437,\n            1427.041015625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"815a3e2d27d991c69d58a7b1e84760b0\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Octopus Energy Limited Company Number 09263424\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            669.0,\n            2055.0\n          ],\n          [\n            669.0,\n            2103.0\n          ],\n          [\n            999.0,\n            2103.0\n          ],\n          [\n            999.0,\n            2055.0\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"VAT Number 358672751\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            690.3911743164062,\n            2105.111083984375\n          ],\n          [\n            690.3911743164062,\n            2132.83447265625\n          ],\n          [\n            981.0610961914062,\n            2132.83447265625\n          ],\n          [\n            981.0610961914062,\n            2105.111083984375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 2,\n      \"parent_id\":
+      \"078cd09a2116fb0b556c440c04fef850\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"Powered by   for business  for business \",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            601.298583984375,\n            143.06649780273438\n          ],\n          [\n            601.298583984375,\n            378.06195068359375\n          ],\n          [\n            1049.654296875,\n            378.06195068359375\n          ],\n          [\n            1049.654296875,\n            143.06649780273438\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"About Your Tariff\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            181.3343963623047,\n            457.4583435058594\n          ],\n          [\n            181.3343963623047,\n            521.3524265972223\n          ],\n          [\n            735.0899658203125,\n            521.3524265972223\n          ],\n          [\n            735.0899658203125,\n            457.4583435058594\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Electricity\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            184.8190155029297,\n            562.4013061523438\n          ],\n          [\n            184.8190155029297,\n            591.5322875976562\n          ],\n          [\n            314.7107238769531,\n            591.5322875976562\n          ],\n          [\n            314.7107238769531,\n            562.4013061523438\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Tariff Name\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            185.67178344726562,\n            606.7706909179688\n          ],\n          [\n            185.67178344726562,\n            632.0676503833889\n          ],\n          [\n            308.8572998046875,\n            632.0676503833889\n          ],\n          [\n            308.8572998046875,\n            606.7706909179688\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Payment Method\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            186.4256591796875,\n            651.463134765625\n          ],\n          [\n            186.4256591796875,\n            676.2011659389445\n          ],\n          [\n            362.4208984375,\n            676.2011659389445\n          ],\n          [\n            362.4208984375,\n            651.463134765625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Agreement End Date\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            187.0410277777778,\n            695.9690551757812\n          ],\n          [\n            187.0410277777778,\n            720.3346814945\n          ],\n          [\n            400.3519592285156,\n            720.3346814945\n          ],\n          [\n            400.3519592285156,\n            695.9690551757812\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Estimated Annual Usage\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            186.31204223632812,\n            738.8410034179688\n          ],\n          [\n            186.31204223632812,\n            765.3064575195312\n          ],\n          [\n            432.6568603515625,\n            765.3064575195312\n          ],\n          [\n            432.6568603515625,\n            738.8410034179688\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Green Octopus 12M Fixed\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            841.6843872070312,\n            606.02197265625\n          ],\n          [\n            841.6843872070312,\n            632.267822265625\n          ],\n          [\n            1101.4881591796875,\n            632.267822265625\n          ],\n          [\n            1101.4881591796875,\n            606.02197265625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Direct Debit Monthly\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            841.482177734375,\n            650.1422729492188\n          ],\n          [\n            841.482177734375,\n            677.1198120117188\n          ],\n          [\n            1055.0286865234375,\n            677.1198120117188\n          ],\n          [\n            1055.0286865234375,\n            650.1422729492188\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"8th Jul 2024\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            841.8171486975,\n            694.9141235351562\n          ],\n          [\n            841.8171486975,\n            720.3346814945\n          ],\n          [\n            970.447998046875,\n            720.3346814945\n          ],\n          [\n            970.447998046875,\n            694.9141235351562\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"0 kWh\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            841.8171486975,\n            739.2393188476562\n          ],\n          [\n            841.8171486975,\n            764.4681970500557\n          ],\n          [\n            913.9697875976562,\n            764.4681970500557\n          ],\n          [\n            913.9697875976562,\n            739.2393188476562\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"5ed06211262a4afa2cc8c8a25c349a50\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Electricity mix\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            187.01988220214844,\n            940.9783935546875\n          ],\n          [\n            187.01988220214844,\n            1007.0935377083333\n          ],\n          [\n            639.3677978515625,\n            1007.0935377083333\n          ],\n          [\n            639.3677978515625,\n            940.9783935546875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"We believe that renewable energy is no longer
+      an opportunity \\u2013 it''s a responsibility. Because of that, every single
+      one of our business tariffs are powered by REGO-backed 100% renewable electricity.
+      As a group we also invest heavily in renewable generation; in fact, we''re proud
+      to say that the solar farms we''ve funded generate over 40% of all the UK''s
+      large scale solar.\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            179.5816650390625,\n            1049.0673828125\n          ],\n          [\n            179.5816650390625,\n            1199.98046875\n          ],\n          [\n            1054.887451171875,\n            1199.98046875\n          ],\n          [\n            1054.887451171875,\n            1049.0673828125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"parent_id\":
+      \"b0bc42134ebec22987589c03301969a2\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"[e]V]:4 ELECTRICITY IS 100% RENEWABLE\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            1103.573611111111,\n            933.5586111111112\n          ],\n          [\n            1103.573611111111,\n            1288.9644444444446\n          ],\n          [\n            1458.9794444444444,\n            1288.9644444444446\n          ],\n          [\n            1458.9794444444444,\n            933.5586111111112\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Footer\",\n    \"text\": \"Octopus Energy Limited Company Number 09263424\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            662.2256181208332,\n            2056.68505859375\n          ],\n          [\n            662.2256181208332,\n            2112.5000932033336\n          ],\n          [\n            994.3460083007812,\n            2112.5000932033336\n          ],\n          [\n            994.3460083007812,\n            2056.68505859375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Footer\",\n    \"text\": \"VAT Number 358672751\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            684.2010498046875,\n            2113.547119140625\n          ],\n          [\n            684.2010498046875,\n            2140.093994140625\n          ],\n          [\n            973.564697265625,\n            2140.093994140625\n          ],\n          [\n            973.564697265625,\n            2113.547119140625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 3,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Image\",\n    \"text\": \"Powered by   for business  for business \",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            605.4132080078125,\n            141.75213623046875\n          ],\n          [\n            605.4132080078125,\n            384.61602783203125\n          ],\n          [\n            1050.695556640625,\n            384.61602783203125\n          ],\n          [\n            1050.695556640625,\n            141.75213623046875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Additional Information\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            186.70936584472656,\n            451.3018798828125\n          ],\n          [\n            186.70936584472656,\n            492.57787597222233\n          ],\n          [\n            612.6444702148438,\n            492.57787597222233\n          ],\n          [\n            612.6444702148438,\n            451.3018798828125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Contacting us\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            185.2396697998047,\n            530.6701049804688\n          ],\n          [\n            185.2396697998047,\n            565.1824202777779\n          ],\n          [\n            409.6551818847656,\n            565.1824202777779\n          ],\n          [\n            409.6551818847656,\n            530.6701049804688\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Contact us by email and get a response within
+      hours. Of course, if you need to you can also get a hold of us on the phone,
+      or even by post.\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            186.5661163330078,\n            595.2384643554688\n          ],\n          [\n            186.5661163330078,\n            685.7200927734375\n          ],\n          [\n            798.9719848632812,\n            685.7200927734375\n          ],\n          [\n            798.9719848632812,\n            595.2384643554688\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"f7e49b977c436e3a27c46fbcce7dbdfc\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Email: business@octopus.energy\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            182.41729736328125,\n            697.2816772460938\n          ],\n          [\n            182.41729736328125,\n            725.1246948242188\n          ],\n          [\n            568.528564453125,\n            725.1246948242188\n          ],\n          [\n            568.528564453125,\n            697.2816772460938\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"f7e49b977c436e3a27c46fbcce7dbdfc\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Phone: 020 3389 5613\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            186.3254852294922,\n            736.1384887695312\n          ],\n          [\n            186.3254852294922,\n            763.720461736111\n          ],\n          [\n            447.992431640625,\n            763.720461736111\n          ],\n          [\n            447.992431640625,\n            736.1384887695312\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"f7e49b977c436e3a27c46fbcce7dbdfc\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Trading office: UK House, 5th floor, 164-182
+      Oxford Street, London, W1D 1NN\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            186.96133422851562,\n            774.8032836914062\n          ],\n          [\n            186.96133422851562,\n            833.9329617361108\n          ],\n          [\n            775.59375,\n            833.9329617361108\n          ],\n          [\n            775.59375,\n            774.8032836914062\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"f7e49b977c436e3a27c46fbcce7dbdfc\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Advice and complaints\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            185.23141479492188,\n            869.1261596679688\n          ],\n          [\n            185.23141479492188,\n            903.7063091666669\n          ],\n          [\n            551.476318359375,\n            903.7063091666669\n          ],\n          [\n            551.476318359375,\n            869.1261596679688\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"A-2981\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            634.0147705078125,\n            851.4467163085938\n          ],\n          [\n            634.0147705078125,\n            879.3254650616635\n          ],\n          [\n            714.0551147460938,\n            879.3254650616635\n          ],\n          [\n            714.0551147460938,\n            851.4467163085938\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"If you feel that our service has not met
+      your expectations, please get in touch so we can put things right:\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            185.2508544921875,\n            934.9784545898438\n          ],\n          [\n            185.2508544921875,\n            1022.0018506250001\n          ],\n          [\n            720.3519343027779,\n            1022.0018506250001\n          ],\n          [\n            720.3519343027779,\n            934.9784545898438\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"First: Contact our team.\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            184.0150909423828,\n            1034.671142578125\n          ],\n          [\n            184.0150909423828,\n            1062.123239513889\n          ],\n          [\n            461.29632568359375,\n            1062.123239513889\n          ],\n          [\n            461.29632568359375,\n            1034.671142578125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Then: If an advisor is not able to resolve
+      your query, you can ask for it to be escalated to a specialist or team leader
+      as appropriate.\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            181.58787536621094,\n            1075.8505859375\n          ],\n          [\n            181.58787536621094,\n            1163.1728515625\n          ],\n          [\n            778.4576416015625,\n            1163.1728515625\n          ],\n          [\n            778.4576416015625,\n            1075.8505859375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Finally: If you''re still not happy with
+      our decision, you can contact our Operations Manager for an independent review,
+      and you will receive a reply within 5 working days.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            179.371337890625,\n            1175.337646484375\n          ],\n          [\n            179.371337890625,\n            1293.20068359375\n          ],\n          [\n            789.7719482027777,\n            1293.20068359375\n          ],\n          [\n            789.7719482027777,\n            1175.337646484375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"If you have followed the above steps, but
+      your complaint remains unresolved after 8 weeks you can contact the Energy Ombudsman
+      on 0330 440 1624 or at www.energyombudsman.org. This is a free and independent
+      service whose decisions we must abide by.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            183.5640411376953,\n            1304.829345703125\n          ],\n          [\n            183.5640411376953,\n            1483.3976839583336\n          ],\n          [\n            797.8282470703125,\n            1483.3976839583336\n          ],\n          [\n            797.8282470703125,\n            1304.829345703125\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"You can read our complaints policy on our
+      website.\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            187.0410277777778,\n            1496.0269775390625\n          ],\n          [\n            187.0410277777778,\n            1525.5191650390625\n          ],\n          [\n            766.8867797851562,\n            1525.5191650390625\n          ],\n          [\n            766.8867797851562,\n            1496.0269775390625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"9e6a9c13ffafe7b42408cd9195ed5680\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Ending your contract with us\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            897.8530555555556,\n            529.5321044921875\n          ],\n          [\n            897.8530555555556,\n            564.818359375\n          ],\n          [\n            1358.1463623046875,\n            564.818359375\n          ],\n          [\n            1358.1463623046875,\n            529.5321044921875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"You can end your contract at any time by
+      giving us 30 days'' notice. However, the effects of ending your contract differ
+      depending on where you are within your contract period:\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            895.4970092773438,\n            595.8157348632812\n          ],\n          [\n            895.4970092773438,\n            712.7593506249998\n          ],\n          [\n            1512.4208984375,\n            712.7593506249998\n          ],\n          [\n            1512.4208984375,\n            595.8157348632812\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"8d7936e19d1e1bb20ce58f669f513321\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"In contract, not within the final 30 days:
+      we reserve the right to charge exit fees. Please see section 12 of our Terms
+      and Conditions for more details.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            894.3509521484375,\n            724.7777099609375\n          ],\n          [\n            894.3509521484375,\n            843.1537950694443\n          ],\n          [\n            1446.152099609375,\n            843.1537950694443\n          ],\n          [\n            1446.152099609375,\n            724.7777099609375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"8d7936e19d1e1bb20ce58f669f513321\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"In contract, within the final 30 days: you
+      can leave at any time after the last day of your contract (even if you give
+      notice less than 30 days before the contract end date)\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            894.7727661132812,\n            856.2621459960938\n          ],\n          [\n            894.7727661132812,\n            973.548239513889\n          ],\n          [\n            1503.4169921875,\n            973.548239513889\n          ],\n          [\n            1503.4169921875,\n            856.2621459960938\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"8d7936e19d1e1bb20ce58f669f513321\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Out of contract: If you are out of contract
+      with us, you''ll simply be moved onto to our fairly-priced Variable tariff (we
+      don''t believe in expensive out of contract rates). On this tariff you''re free
+      to leave at any time \\u2013 though of course we''d love you to get in touch
+      to see if you could save money by re-fixing.\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            893.1102294921875,\n            986.7069702148438\n          ],\n          [\n            893.1102294921875,\n            1165.6534423828125\n          ],\n          [\n            1484.20556640625,\n            1165.6534423828125\n          ],\n          [\n            1484.20556640625,\n            986.7069702148438\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"8d7936e19d1e1bb20ce58f669f513321\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"Title\",\n    \"text\": \"Paying by bank transfer\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            897.8530555555556,\n            1188.553466796875\n          ],\n          [\n            897.8530555555556,\n            1225.2960205078125\n          ],\n          [\n            1280.7720947265625,\n            1225.2960205078125\n          ],\n          [\n            1280.7720947265625,\n            1188.553466796875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"filename\":
+      \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"We are also able to accept one-off payments
+      by bank transfer. However, please do not use this method if you already have
+      an active direct debit with us as you may end up paying twice.\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            892.6459350585938,\n            1267.624755859375\n          ],\n          [\n            892.6459350585938,\n            1384.8453369140625\n          ],\n          [\n            1507.115234375,\n            1384.8453369140625\n          ],\n          [\n            1507.115234375,\n            1267.624755859375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"2de07c944e27ec2fa27485f6a0ca88c1\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"It''s important that you enter your account
+      reference as the payment reference, otherwise the payment may not be allocated
+      to your account:\",\n    \"metadata\": {\n      \"coordinates\": {\n        \"points\":
+      [\n          [\n            893.1018676757812,\n            1398.655029296875\n          ],\n          [\n            893.1018676757812,\n            1485.1154617361115\n          ],\n          [\n            1491.854248046875,\n            1485.1154617361115\n          ],\n          [\n            1491.854248046875,\n            1398.655029296875\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"2de07c944e27ec2fa27485f6a0ca88c1\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Your account reference: A-3DB09C3C A-2981
+      Account number: 44594118 Sort Code: 40-05-30\",\n    \"metadata\": {\n      \"coordinates\":
+      {\n        \"points\": [\n          [\n            897.8530555555556,\n            1498.28759765625\n          ],\n          [\n            897.8530555555556,\n            1585.4190728472222\n          ],\n          [\n            1344.7951736555553,\n            1585.4190728472222\n          ],\n          [\n            1344.7951736555553,\n            1498.28759765625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"2de07c944e27ec2fa27485f6a0ca88c1\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"Octopus Energy Limited Company Number 09263424\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            662.2256181208332,\n            2058.6005859375\n          ],\n          [\n            662.2256181208332,\n            2112.5000932033336\n          ],\n          [\n            993.4805297851562,\n            2112.5000932033336\n          ],\n          [\n            993.4805297851562,\n            2058.6005859375\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"2de07c944e27ec2fa27485f6a0ca88c1\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  },\n  {\n    \"type\":
+      \"NarrativeText\",\n    \"text\": \"VAT Number 358672751\",\n    \"metadata\":
+      {\n      \"coordinates\": {\n        \"points\": [\n          [\n            686.21484375,\n            2113.330322265625\n          ],\n          [\n            686.21484375,\n            2139.620849609375\n          ],\n          [\n            972.5152587890625,\n            2139.620849609375\n          ],\n          [\n            972.5152587890625,\n            2113.330322265625\n          ]\n        ],\n        \"system\":
+      \"PixelSpace\",\n        \"layout_width\": 1654,\n        \"layout_height\":
+      2339\n      },\n      \"filetype\": \"application/pdf\",\n      \"languages\":
+      [\n        \"eng\"\n      ],\n      \"page_number\": 4,\n      \"parent_id\":
+      \"2de07c944e27ec2fa27485f6a0ca88c1\",\n      \"filename\": \"I-575655elec_flat_ab269ae7-f418-4dfd-b180-c41725b37089.pdf\"\n    }\n  }\n]\n```\n\nPlease
+      extract the following information according to these field descriptions:\n1.
+      address_of_consuming_site: The physical address where electricity is being consumed\n2.
+      start_date_of_consumption: The start date of the billing period\n3. end_date_of_consumption:
+      The end date of the billing period\n4. total_amount_due: The total amount due
+      for payment\n5. account_number: The customer account number\n6. meter_number:
+      The electricity meter identification number\n7. consumption_amount: The total
+      electricity consumption amount\n8. consumption_unit: The unit of electricity
+      consumption (e.g., kWh)\n9. payment_due_date: The date by which payment should
+      be made\n10. supplier_name: The name of the electricity supplier\n11. rate_plan:
+      The electricity rate plan or tariff\n12. peak_consumption: The amount of electricity
+      consumed during peak hours\n13. off_peak_consumption: The amount of electricity
+      consumed during off-peak hours\n\nFor each field, provide:\n1. The extracted
+      value\n2. The confidence in your extraction (high, medium, low)\n3. The exact
+      text snippet from the document that contains this information\n4. The page number
+      where this information appears (if available)\n5. The coordinates where this
+      information appears - IMPORTANT: Include the exact coordinates structure from
+      the JSON document for this field, do not modify or simplify the coordinates\n\nFormat
+      your response as a JSON object with the following structure:\n```\n{\n  \"field_name\":
+      {\n    \"value\": \"extracted value\",\n    \"confidence\": \"high/medium/low\",\n    \"source_text\":
+      \"text from document\",\n    \"page\": page_number,\n    \"coordinates\": {\n        \"points\":
+      [\n          [\n            x1,\n            y1\n          ],\n          [\n            x2,\n            y2\n          ],\n          [\n            x3,\n            y3\n          ],\n          [\n            x4,\n            y4\n          ]\n        ],\n        \"system\":
+      [\"PixelSpace\"],\n        \"layout_width\": int,\n        \"layout_height\":
+      int\n      }\n  },\n  ...\n}\n```\n\nVERY IMPORTANT: For the coordinates field,
+      copy the EXACT coordinates from the matching text element in the JSON document.
+      I need the exact x,y values for all four corner points to highlight the proper
+      areas. Do not modify or simplify these values.\n"}]}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '73653'
+      User-Agent:
+      - python-requests/2.31.0
+      content-type:
+      - application/json
+    method: POST
+    uri: https://api.anthropic.com/v1/messages
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//7Jpbb9s2FMe/CsGnDVA43i9+WtHbkC5Y0W4LhrpwWImxNcukJ1FNjCCf
+        pt+kn2yQEjf24ou62PCL/SJZh/yTx/qJPOfINzDPYA9OquEAE3aqXozfnV39odPTX0bp+O3wVfVi
+        DBMYZ1PXtHJVZYcOJrAMRXPBVlVeResjTOAkZK6APZgWts7cCTtRJ1Xw3sUTiqnAlBiYwDT46HyE
+        vQ83c9Horpvu7aEHLy4u/q6C7/ubvgegD22Wla6qBuFykAZf1ZPcDwdVHl0f9kDbpmn12RZ1e6UP
+        34XKXYWQgTPrQ5kAocHz8Nn5WM7Au2CzBJzZcuwieBO8uwYv3GdXhOnE+ZiA0zrLKvCrTx66PP9T
+        Avn6ZR8m87HS4C/zzPn0fsBRPhwtmKtQl6kbNO7c2d/X02kxA8/uHOmBvU9waoft1OjClEOZ5d5G
+        Vy38bG3bkPvYXvwwvwgWTwGgVCOiBZHzj0gWzRIzhJkSRkkhqXgwfUz+pyBVSCnFOFNd1DRXiBBl
+        NDZCYUboHsXWujo/fRDuw2pWRTe5Q+Btfu2K91PbILPQpLCzUMfBVZ7FUdOQSMEfm0cuH45alihj
+        5s582xxuk7tHpIq2jIPMRvfwlExjHvy6RwQTcFoXgGLKn8D169I5D35LY5jWFSD0DLzKr10GfiBV
+        /KYPToCKo29ff9wjpgoRgwkzSmGBlV66dQorhAWVhDLMpVbdON2oyChSTGJKDTeUaN1BUSmCGGFG
+        ct0AuV+9DR4fFlfns++CVR1hPcJ6KFhjiLYY2EmofRxk9dqo4+sXkhDNkCZPgPT3ZjDwsnBpLPM0
+        jzPwfGTLoavASvldM8kQwQRrw5USzGC5fIsMR8xQhTExgpGOO/1GSUKFQYIwZZjhXTUNZYhqqpk0
+        hGNJxb4lNzl+WDZtmrZY+nryyZXryHx2Qs2TqHwkMOeO7IQ7yThSWChuBCGK6OWVSwuCmGJSKEq7
+        BphbFJVBjAouBZZEStZFURGJtKFcSCza9Wnfihu8PixzExdduYW4NxSfY8yIVk+g7pwSfMaFINqA
+        l96Vw4fF8DKU4KyZB1g50n7SHy2xlIZzvpwTKEGQ5oorRni74HxHArROUklklDTaKC6xYV02V8kZ
+        4oyRVTDtXG+Dy4eFcyGavN+y1yHKhGaIPXmrXhgQ3EmOz0fgZ0AVMmz60/h8dNyuj9v1Cjprn69l
+        c5maI5hHMPcM5tTOmupik960ifk6MCmOI/CsHm7LxScuy+vJJkj/CnUJsrx0aQSZ+5RHcD8HEC4X
+        ch1wlRcF+ORAtGPnQe6BApmdVWhvwWgzLseKcqIpofoRaZwJRLTUep7GdsBiq6bkSApJqDLUdEz3
+        taLIcMK4oKSZiN6/5AbPD1z+bOrreROV2sladueVn/tQ8td8kkeXPWGd3Sq44yxJG4SX7gjFkiLc
+        JZZb0VWzTl2NZLvs+p8JHxabsilBTgu7tvC4pmS4+yLkCmjYTqDRnCDZPMqK4lWvMyRq3sqpzon1
+        Fj1GEZVK0+6ZOiGYIK41EYYo8yjT2IPiWp8PvAU7O+5SDGeYEKTB5hBx+/5LDSK8DQPBgyL4+kUr
+        hSQzx9jwGBvegxkuLwdd4RSKIPF0NgkS4o7Nb4JNTNjcZ6GPaB7R7Pvbvr+4uIC3HxNYxTAdlM5W
+        wcNe+24x1qWH94bK/VM38MGer4sigXX795XeDcz9tI6DGMbOV7BHGdEygalNR26Qls62SfpyGzy3
+        l85mj22hjkuKWuDb238BAAD//wMArIuJmV0jAAA=
+    headers:
+      CF-RAY:
+      - 9292e833d80d58f0-TXL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 21:23:53 GMT
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      X-Robots-Tag:
+      - none
+      anthropic-organization-id:
+      - c3c45c7c-9581-4190-93d0-ecbf5f8a5edf
+      anthropic-ratelimit-input-tokens-limit:
+      - '10000'
+      anthropic-ratelimit-input-tokens-remaining:
+      - '0'
+      anthropic-ratelimit-input-tokens-reset:
+      - '2025-03-31T21:25:36Z'
+      anthropic-ratelimit-output-tokens-limit:
+      - '4000'
+      anthropic-ratelimit-output-tokens-remaining:
+      - '4000'
+      anthropic-ratelimit-output-tokens-reset:
+      - '2025-03-31T21:24:00Z'
+      anthropic-ratelimit-requests-limit:
+      - '5'
+      anthropic-ratelimit-requests-remaining:
+      - '4'
+      anthropic-ratelimit-requests-reset:
+      - '2025-03-31T21:23:29Z'
+      anthropic-ratelimit-tokens-limit:
+      - '14000'
+      anthropic-ratelimit-tokens-remaining:
+      - '4000'
+      anthropic-ratelimit-tokens-reset:
+      - '2025-03-31T21:24:00Z'
+      cf-cache-status:
+      - DYNAMIC
+      request-id:
+      - req_01JbFbdng4tfn7XB9h5cyLcE
+      via:
+      - 1.1 google
+    status:
+      code: 200
+      message: OK
+version: 1

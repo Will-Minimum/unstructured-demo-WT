@@ -1,0 +1,375 @@
+=== ELEMENT 1 ===
+TYPE: Image
+TEXT:
+Powered by   for business  for business 
+
+=== ELEMENT 2 ===
+TYPE: NarrativeText
+TEXT:
+Konex General TopCo
+
+=== ELEMENT 3 ===
+TYPE: NarrativeText
+TEXT:
+1 Hornsey Road
+
+=== ELEMENT 4 ===
+TYPE: NarrativeText
+TEXT:
+Islington
+
+=== ELEMENT 5 ===
+TYPE: NarrativeText
+TEXT:
+London
+
+=== ELEMENT 6 ===
+TYPE: NarrativeText
+TEXT:
+N7 7AJ
+
+=== ELEMENT 7 ===
+TYPE: Title
+TEXT:
+Invoice
+
+=== ELEMENT 8 ===
+TYPE: NarrativeText
+TEXT:
+Invoice number:
+
+=== ELEMENT 9 ===
+TYPE: NarrativeText
+TEXT:
+Account number:
+
+=== ELEMENT 10 ===
+TYPE: NarrativeText
+TEXT:
+Date issued:
+
+=== ELEMENT 11 ===
+TYPE: NarrativeText
+TEXT:
+I-575655
+
+=== ELEMENT 12 ===
+TYPE: NarrativeText
+TEXT:
+A-2981
+
+=== ELEMENT 13 ===
+TYPE: NarrativeText
+TEXT:
+13th Aug 2024
+
+=== ELEMENT 14 ===
+TYPE: Title
+TEXT:
+Your charges
+
+=== ELEMENT 15 ===
+TYPE: Table
+TEXT:
+Net charges CCL Electricity (01 Jul 2024 - 07 Jul 2024) £1,127.44 £0.00 Total charges for bill Current balance VAT £56.37 Total £1,183.81 £1,183.81 -£3,599.67
+
+=== ELEMENT 16 ===
+TYPE: NarrativeText
+TEXT:
+Your direct debit payment of £1,183.81 will be taken in 7 days.
+
+=== ELEMENT 17 ===
+TYPE: Title
+TEXT:
+Octopus Energy Limited
+
+=== ELEMENT 18 ===
+TYPE: Footer
+TEXT:
+Company Number 09263424
+
+=== ELEMENT 19 ===
+TYPE: Footer
+TEXT:
+VAT Number 358672751
+
+=== ELEMENT 20 ===
+TYPE: Image
+TEXT:
+Powered by   for business  for business 
+
+=== ELEMENT 21 ===
+TYPE: Image
+TEXT:
+
+
+=== ELEMENT 22 ===
+TYPE: Title
+TEXT:
+Your Energy Charges In Detail
+
+=== ELEMENT 23 ===
+TYPE: Table
+TEXT:
+Electricity Supply number S 0 845 1170001317520 L02
+
+=== ELEMENT 24 ===
+TYPE: NarrativeText
+TEXT:
+Supply Address: Rosewood Manor, 58 Coventry Road, Market Konex Development, Judds Ln, Coventry CV6 6GE
+
+=== ELEMENT 25 ===
+TYPE: NarrativeText
+TEXT:
+Postcode area alpha identifier: R T
+
+=== ELEMENT 26 ===
+TYPE: NarrativeText
+TEXT:
+Green Octopus 12M Fixed (1st Jul 2024 - 7th Jul 2024)
+
+=== ELEMENT 27 ===
+TYPE: NarrativeText
+TEXT:
+W210M455189 Energy Charges for Meter K20W003187
+
+=== ELEMENT 28 ===
+TYPE: Table
+TEXT:
+Breakdown by rate Rate Consumption Cost 21.55p/kWh 571.5 kWh £123.158 29.14p/kWh 3011.8 kWh £877.639 Total consumption 3583.3kWh @ 27.93p/kWh † £1,000.80 Standing Charge 7 days @ 1404.72p/day £98.33 7 days x 120kVA Capacity charge @ 3.37p/kVA/day £28.31 VAT @ 5% on £1,127.44 £56.37 Total Electricity Charges £1,183.81 † Average unit rate charged per kilowatt-hour.
+
+=== ELEMENT 29 ===
+TYPE: NarrativeText
+TEXT:
+You have submitted a CCL Declaration to us which is effective from 8th July 2023. You have declared CCL qualifying usage on 100% of the electricity supplied at this meter point.
+
+=== ELEMENT 30 ===
+TYPE: NarrativeText
+TEXT:
+You have submitted a VAT Declaration to us which is effective from 8th July 2023.
+
+=== ELEMENT 31 ===
+TYPE: NarrativeText
+TEXT:
+You have declared VAT qualifying usage on 100% of the electricity supplied at this meter point.
+
+=== ELEMENT 32 ===
+TYPE: Title
+TEXT:
+Octopus Energy Limited Company Number 09263424
+
+=== ELEMENT 33 ===
+TYPE: NarrativeText
+TEXT:
+VAT Number 358672751
+
+=== ELEMENT 34 ===
+TYPE: Image
+TEXT:
+Powered by   for business  for business 
+
+=== ELEMENT 35 ===
+TYPE: Title
+TEXT:
+About Your Tariff
+
+=== ELEMENT 36 ===
+TYPE: Title
+TEXT:
+Electricity
+
+=== ELEMENT 37 ===
+TYPE: NarrativeText
+TEXT:
+Tariff Name
+
+=== ELEMENT 38 ===
+TYPE: NarrativeText
+TEXT:
+Payment Method
+
+=== ELEMENT 39 ===
+TYPE: NarrativeText
+TEXT:
+Agreement End Date
+
+=== ELEMENT 40 ===
+TYPE: NarrativeText
+TEXT:
+Estimated Annual Usage
+
+=== ELEMENT 41 ===
+TYPE: NarrativeText
+TEXT:
+Green Octopus 12M Fixed
+
+=== ELEMENT 42 ===
+TYPE: NarrativeText
+TEXT:
+Direct Debit Monthly
+
+=== ELEMENT 43 ===
+TYPE: NarrativeText
+TEXT:
+8th Jul 2024
+
+=== ELEMENT 44 ===
+TYPE: NarrativeText
+TEXT:
+0 kWh
+
+=== ELEMENT 45 ===
+TYPE: Title
+TEXT:
+Electricity mix
+
+=== ELEMENT 46 ===
+TYPE: NarrativeText
+TEXT:
+We believe that renewable energy is no longer an opportunity – it's a responsibility. Because of that, every single one of our business tariffs are powered by REGO-backed 100% renewable electricity. As a group we also invest heavily in renewable generation; in fact, we're proud to say that the solar farms we've funded generate over 40% of all the UK's large scale solar.
+
+=== ELEMENT 47 ===
+TYPE: Image
+TEXT:
+[e]V]:4 ELECTRICITY IS 100% RENEWABLE
+
+=== ELEMENT 48 ===
+TYPE: Footer
+TEXT:
+Octopus Energy Limited Company Number 09263424
+
+=== ELEMENT 49 ===
+TYPE: Footer
+TEXT:
+VAT Number 358672751
+
+=== ELEMENT 50 ===
+TYPE: Image
+TEXT:
+Powered by   for business  for business 
+
+=== ELEMENT 51 ===
+TYPE: Title
+TEXT:
+Additional Information
+
+=== ELEMENT 52 ===
+TYPE: Title
+TEXT:
+Contacting us
+
+=== ELEMENT 53 ===
+TYPE: NarrativeText
+TEXT:
+Contact us by email and get a response within hours. Of course, if you need to you can also get a hold of us on the phone, or even by post.
+
+=== ELEMENT 54 ===
+TYPE: NarrativeText
+TEXT:
+Email: business@octopus.energy
+
+=== ELEMENT 55 ===
+TYPE: NarrativeText
+TEXT:
+Phone: 020 3389 5613
+
+=== ELEMENT 56 ===
+TYPE: NarrativeText
+TEXT:
+Trading office: UK House, 5th floor, 164-182 Oxford Street, London, W1D 1NN
+
+=== ELEMENT 57 ===
+TYPE: Title
+TEXT:
+Advice and complaints
+
+=== ELEMENT 58 ===
+TYPE: NarrativeText
+TEXT:
+A-2981
+
+=== ELEMENT 59 ===
+TYPE: NarrativeText
+TEXT:
+If you feel that our service has not met your expectations, please get in touch so we can put things right:
+
+=== ELEMENT 60 ===
+TYPE: NarrativeText
+TEXT:
+First: Contact our team.
+
+=== ELEMENT 61 ===
+TYPE: NarrativeText
+TEXT:
+Then: If an advisor is not able to resolve your query, you can ask for it to be escalated to a specialist or team leader as appropriate.
+
+=== ELEMENT 62 ===
+TYPE: NarrativeText
+TEXT:
+Finally: If you're still not happy with our decision, you can contact our Operations Manager for an independent review, and you will receive a reply within 5 working days.
+
+=== ELEMENT 63 ===
+TYPE: NarrativeText
+TEXT:
+If you have followed the above steps, but your complaint remains unresolved after 8 weeks you can contact the Energy Ombudsman on 0330 440 1624 or at www.energyombudsman.org. This is a free and independent service whose decisions we must abide by.
+
+=== ELEMENT 64 ===
+TYPE: NarrativeText
+TEXT:
+You can read our complaints policy on our website.
+
+=== ELEMENT 65 ===
+TYPE: Title
+TEXT:
+Ending your contract with us
+
+=== ELEMENT 66 ===
+TYPE: NarrativeText
+TEXT:
+You can end your contract at any time by giving us 30 days' notice. However, the effects of ending your contract differ depending on where you are within your contract period:
+
+=== ELEMENT 67 ===
+TYPE: NarrativeText
+TEXT:
+In contract, not within the final 30 days: we reserve the right to charge exit fees. Please see section 12 of our Terms and Conditions for more details.
+
+=== ELEMENT 68 ===
+TYPE: NarrativeText
+TEXT:
+In contract, within the final 30 days: you can leave at any time after the last day of your contract (even if you give notice less than 30 days before the contract end date)
+
+=== ELEMENT 69 ===
+TYPE: NarrativeText
+TEXT:
+Out of contract: If you are out of contract with us, you'll simply be moved onto to our fairly-priced Variable tariff (we don't believe in expensive out of contract rates). On this tariff you're free to leave at any time – though of course we'd love you to get in touch to see if you could save money by re-fixing.
+
+=== ELEMENT 70 ===
+TYPE: Title
+TEXT:
+Paying by bank transfer
+
+=== ELEMENT 71 ===
+TYPE: NarrativeText
+TEXT:
+We are also able to accept one-off payments by bank transfer. However, please do not use this method if you already have an active direct debit with us as you may end up paying twice.
+
+=== ELEMENT 72 ===
+TYPE: NarrativeText
+TEXT:
+It's important that you enter your account reference as the payment reference, otherwise the payment may not be allocated to your account:
+
+=== ELEMENT 73 ===
+TYPE: NarrativeText
+TEXT:
+Your account reference: A-3DB09C3C A-2981 Account number: 44594118 Sort Code: 40-05-30
+
+=== ELEMENT 74 ===
+TYPE: NarrativeText
+TEXT:
+Octopus Energy Limited Company Number 09263424
+
+=== ELEMENT 75 ===
+TYPE: NarrativeText
+TEXT:
+VAT Number 358672751
+

@@ -1,0 +1,85 @@
+{
+  "id": "electricity_bill",
+  "name": "Electricity Bill",
+  "description": "Schema for extracting information from electricity bills",
+  "fields": [
+    {
+      "name": "address_of_consuming_site",
+      "description": "The address of the site where the electricity is consumed, not a billing address",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "start_date_of_consumption",
+      "description": "The start date of the consumption period",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "end_date_of_consumption",
+      "description": "The end date of the consumption period",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "total_amount_due",
+      "description": "The total amount due for payment",
+      "type": "currency",
+      "required": true
+    },
+    {
+      "name": "account_number",
+      "description": "The customer's account number",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "meter_number",
+      "description": "The electricity meter number",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "consumption_amount",
+      "description": "The amount of electricity consumed in the period",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "consumption_unit",
+      "description": "The unit of measurement for electricity consumption (e.g., kWh)",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "payment_due_date",
+      "description": "The date by which payment must be made",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "supplier_name",
+      "description": "The name of the electricity supplier company",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "rate_plan",
+      "description": "The electricity rate plan or tariff",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "peak_consumption",
+      "description": "The amount of electricity consumed during peak hours",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "off_peak_consumption",
+      "description": "The amount of electricity consumed during off-peak hours",
+      "type": "number",
+      "required": false
+    }
+  ]
+}
