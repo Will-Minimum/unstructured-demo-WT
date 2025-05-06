@@ -6,6 +6,10 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from extract import PDFExtractor
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(__name__, static_folder='frontend/build')
 CORS(app)
@@ -23,8 +27,10 @@ os.makedirs(RESULTS_FOLDER, exist_ok=True)
 os.makedirs(ANNOTATED_PDFS_FOLDER, exist_ok=True)
 os.makedirs(SCHEMAS_FOLDER, exist_ok=True)
 
+# Get max upload size from environment variable or use default
+MAX_UPLOAD_SIZE_MB = int(os.getenv('MAX_UPLOAD_SIZE_MB', 10))
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024  # 10MB max upload size
+app.config['MAX_CONTENT_LENGTH'] = MAX_UPLOAD_SIZE_MB * 1024 * 1024  # Convert MB to bytes
 
 # Load schemas from the schemas directory
 def load_schemas():
@@ -161,4 +167,4 @@ def serve(path):
         return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host='0.0.0.0') 
+    app.run(debug=True, port=5001, host='0.0.0.0') 
